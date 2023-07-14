@@ -2,8 +2,8 @@
 """Module contains efinition of class Square"""
 
 
-class square():
-    """Square class"""
+class square:
+    """Square class definition"""
 
     width = 0
     height = 0
@@ -27,7 +27,6 @@ class square():
 
 
 if __name__ == "__main__":
-
     s = square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
