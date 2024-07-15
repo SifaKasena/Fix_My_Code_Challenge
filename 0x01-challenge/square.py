@@ -18,7 +18,7 @@ class Rectangle:
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
-    
+
 
 class square(Rectangle):
     """ Square class """
